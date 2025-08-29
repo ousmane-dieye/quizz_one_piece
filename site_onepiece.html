@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="site_onepiece.css">
+</head>
+<body>
+    <header>
+        <img src="One_Piece_Logo.svg" width="200" >
+        <!-- <h1>ONE PIECE</h1> -->
+    </header>
+    <!-- <div id="presentation">
+        <h3><h2>🏴‍☠️ One Piece</h2> est un manga emblématique créé par Eiichirō Oda, qui a captivé des millions de fans à travers le monde depuis sa première publication en 1997. L'histoire suit les aventures de Monkey D. Luffy, un jeune pirate au corps élastique grâce à un mystérieux "fruit du démon". Avec son équipage, les Mugiwara (ou Chapeau de Paille), Luffy parcourt les mers à la recherche du légendaire trésor "One Piece", dans l'espoir de devenir le Roi des Pirates.
+            Ce manga se distingue par son univers riche et détaillé, peuplé de personnages hauts en couleur, de créatures fantastiques, et de lieux extraordinaires. Il mêle habilement action, humour, drame et des thèmes profonds comme l'amitié, la liberté et la quête de soi. Avec plus de 100 tomes et une adaptation animée comptant plus de 1 000 épisodes, One Piece est devenu un phénomène culturel mondial.🌊
+        </h3>
+    </div>
+    <h2>
+        Pour avoir des informations sur les personages cliquer sur les liens ci dessous
+    </h2>
+    <ul>
+        <li><h4><a href="luffy.html" target="blank">Monkey D. Luffy</a></h4></li>
+        <li><h4><a href="zoro.html" target="blank">Roronoa Zoro</a></h4></li>
+        <li><h4><a href="sanji.html" target="blank">Vinsmoke Sanji </a></h4></li>
+        <li><h4><a href="ussop.html" target="blank">Ussop<a></a></h4></li>
+        <li><h4><a href="nami.html" target="blank">Nami</a></h4></li>
+    </ul> -->
+
+    <h1>Quizz One Piece <img src="mugiwara.png" alt="" height="30"></h1>
+    <!-- <div id="conteneur"></div> methode pour creer les 20 div avec une boucle JS-->
+    <!-- Question 1 -->
+
+    <div id="presentation" >
+        <p>
+            Testez vos connaissances sur le monde fascinant de One Piece ! Découvrez l’histoire des Mugiwara, les îles légendaires, 
+            les Yonkos et les Shichibukai, et amusez-vous à répondre aux questions sur vos personnages favoris comme Luffy, Zoro, Nami et bien d’autres.
+        </p>
+        <p>
+            Préparez-vous à un voyage dans le Grand Line et montrez que vous êtes un vrai pirate !
+        </p>
+        <button id="demarrer" >Démarrer le Quiz</button>
+    </div>
+    <div class="quiz">
+        <div class="question" id="question1">
+            <p>1. Quel est le rêve de Monkey D. Luffy ?</p>
+            <div class="reponses">
+                <div id="reponse1_1" class="reponse reponse1 reponse_A faux">Devenir amiral</div>
+                <div id="reponse1_2" class="reponse reponse1 reponse_B vrai">Devenir Roi des Pirates</div>
+                <div id="reponse1_3" class="reponse reponse1 reponse_C faux">Trouver le One Piece pour le vendre</div>
+                <div id="reponse1_4" class="reponse reponse1 reponse_D faux">Venger son père</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question" id="question2">
+            <p>2. Qui est le premier membre à rejoindre l'équipage de Luffy ?</p>
+            <div class="reponses">
+                <div id="reponse2_1" class="reponse reponse2 reponse_A vrai">Roronoa Zoro</div>
+                <div id="reponse2_2" class="reponse reponse2 reponse_B faux">Nami</div>
+                <div id="reponse2_3" class="reponse reponse2 reponse_C faux">Sanji</div>
+                <div id="reponse2_4" class="reponse reponse2 reponse_D faux">Usopp</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question" id="question3">
+            <p>3. Quelle est la spécialité de Nami ?</p>
+            <div class="reponses">
+                <div id="reponse3_1" class="reponse reponse3 reponse_A faux">La cuisine</div>
+                <div id="reponse3_2" class="reponse reponse3 reponse_B vrai">La navigation</div>
+                <div id="reponse3_3" class="reponse reponse3 reponse_C faux">Le combat à l’épée</div>
+                <div id="reponse3_4" class="reponse reponse3 reponse_D faux">La musique</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question" id="question4">
+            <p>4. Quel est le sabreur qui manie trois katanas ?</p>
+            <div class="reponses">
+                <div id="reponse4_1" class="reponse reponse4 reponse_X vrai">Roronoa Zoro</div>
+                <div id="reponse4_2" class="reponse reponse4 reponse_Y faux">Dracule Mihawk</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question" id="question5">
+            <p>5. Qui est le médecin de l’équipage du Chapeau de Paille ?</p>
+            <div class="reponses">
+                <div id="reponse5_1" class="reponse reponse5 reponse_A faux">Franky</div>
+                <div id="reponse5_2" class="reponse reponse5 reponse_B faux">Nico Robin</div>
+                <div id="reponse5_3" class="reponse reponse5 reponse_C vrai">Tony Tony Chopper</div>
+                <div id="reponse5_4" class="reponse reponse5 reponse_D faux">Brook</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question" id="question6">
+            <p>6. Quelle est l’île où Luffy a recruté Franky ?</p>
+            <div class="reponses">
+                <div id="reponse6_1" class="reponse reponse6 reponse_A vrai">Water 7</div>
+                <div id="reponse6_2" class="reponse reponse6 reponse_B faux">Dressrosa</div>
+                <div id="reponse6_3" class="reponse reponse6 reponse_C faux">Alabasta</div>
+                <div id="reponse6_4" class="reponse reponse6 reponse_D faux">Skypiea</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question" id="question7">
+            <p>7. Quel ancien membre du CP9 rejoint plus tard les alliés de Luffy ?</p>
+            <div class="reponses">
+                <div id="reponse7_1" class="reponse reponse7 reponse_A faux">Lucci</div>
+                <div id="reponse7_2" class="reponse reponse7 reponse_B vrai">Kaku</div>
+                <div id="reponse7_3" class="reponse reponse7 reponse_C faux">Spandam</div>
+                <div id="reponse7_4" class="reponse reponse7 reponse_D faux">Blueno</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question" id="question8">
+            <p>8. Qui est le premier Yonkô affronté par Luffy directement ?</p>
+            <div class="reponses">
+                <div id="reponse8_1" class="reponse reponse8 reponse_A faux">Big Mom</div>
+                <div id="reponse8_2" class="reponse reponse8 reponse_B vrai">Kaido</div>
+                <div id="reponse8_3" class="reponse reponse8 reponse_C faux">Shanks</div>
+                <div id="reponse8_4" class="reponse reponse8 reponse_D faux">Barbe Blanche</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question" id="question9">
+            <p>9. Quel fruit du démon possède Nico Robin ?</p>
+            <div class="reponses">
+                <div id="reponse9_1" class="reponse reponse9 reponse_A faux">Mera Mera no Mi</div>
+                <div id="reponse9_2" class="reponse reponse9 reponse_B vrai">Hana Hana no Mi</div>
+                <div id="reponse9_3" class="reponse reponse9 reponse_C faux">Bara Bara no Mi</div>
+                <div id="reponse9_4" class="reponse reponse9 reponse_D faux">Yami Yami no Mi</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question" id="question10">
+            <p>10. Quelle est la prime actuelle de Luffy après Wano ?</p>
+            <div class="reponses">
+                <div id="reponse10_1" class="reponse reponse10 reponse_A faux">1,5 milliard de berrys</div>
+                <div id="reponse10_2" class="reponse reponse10 reponse_B faux">2,5 milliards de berrys</div>
+                <div id="reponse10_3" class="reponse reponse10 reponse_C vrai">3 milliards de berrys</div>
+                <div id="reponse10_4" class="reponse reponse10 reponse_D faux">4 milliards de berrys</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 11 -->
+        <div class="question" id="question11">
+            <p>11. Qui est le père de Luffy ?</p>
+            <div class="reponses">
+                <div id="reponse11_1" class="reponse reponse11 reponse_A faux">Garp</div>
+                <div id="reponse11_2" class="reponse reponse11 reponse_B vrai">Monkey D. Dragon</div>
+                <div id="reponse11_3" class="reponse reponse11 reponse_C faux">Ace</div>
+                <div id="reponse11_4" class="reponse reponse11 reponse_D faux">Sabo</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question" id="question12">
+            <p>12. Quel membre de l’équipage est un cyborg ?</p>
+            <div class="reponses">
+                <div id="reponse12_1" class="reponse reponse12 reponse_X vrai">Franky</div>
+                <div id="reponse12_2" class="reponse reponse12 reponse_Y faux">Brook</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question" id="question13">
+            <p>13. Quelle est la boisson favorite de Zoro ?</p>
+            <div class="reponses">
+                <div id="reponse13_1" class="reponse reponse13 reponse_A faux">Thé</div>
+                <div id="reponse13_2" class="reponse reponse13 reponse_B vrai">Alcool</div>
+                <div id="reponse13_3" class="reponse reponse13 reponse_C faux">Café</div>
+                <div id="reponse13_4" class="reponse reponse13 reponse_D faux">Lait</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question" id="question14">
+            <p>14. Quel Shichibukai possède l’île Dressrosa ?</p>
+            <div class="reponses">
+                <div id="reponse14_1" class="reponse reponse14 reponse_A faux">Crocodile</div>
+                <div id="reponse14_2" class="reponse reponse14 reponse_B faux">Mihawk</div>
+                <div id="reponse14_3" class="reponse reponse14 reponse_C vrai">Doflamingo</div>
+                <div id="reponse14_4" class="reponse reponse14 reponse_D faux">Kuma</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 15 -->
+        <div class="question" id="question15">
+            <p>15. Qui est l’allié de Luffy parmi les samouraïs de Wano ?</p>
+            <div class="reponses">
+                <div id="reponse15_1" class="reponse reponse15 reponse_A vrai">Kin’emon</div>
+                <div id="reponse15_2" class="reponse reponse15 reponse_B faux">Ryuma</div>
+                <div id="reponse15_3" class="reponse reponse15 reponse_C faux">Hiyori</div>
+                <div id="reponse15_4" class="reponse reponse15 reponse_D faux">Kaido</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 16 -->
+        <div class="question" id="question16">
+            <p>16. Qui est le frère juré de Luffy et Ace ?</p>
+            <div class="reponses">
+                <div id="reponse16_1" class="reponse reponse16 reponse_X vrai">Sabo</div>
+                <div id="reponse16_2" class="reponse reponse16 reponse_Y faux">Law</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 17 -->
+        <div class="question" id="question17">
+            <p>17. Quel est le véritable nom de Barbe Noire ?</p>
+            <div class="reponses">
+                <div id="reponse17_1" class="reponse reponse17 reponse_A faux">Marshall D. Dragon</div>
+                <div id="reponse17_2" class="reponse reponse17 reponse_B vrai">Marshall D. Teach</div>
+                <div id="reponse17_3" class="reponse reponse17 reponse_C faux">Edward Newgate</div>
+                <div id="reponse17_4" class="reponse reponse17 reponse_D faux">Rocks D. Xebec</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 18 -->
+        <div class="question" id="question18">
+            <p>18. Qui est considéré comme le musicien de l’équipage ?</p>
+            <div class="reponses">
+                <div id="reponse18_1" class="reponse reponse18 reponse_A faux">Usopp</div>
+                <div id="reponse18_2" class="reponse reponse18 reponse_B vrai">Brook</div>
+                <div id="reponse18_3" class="reponse reponse18 reponse_C faux">Chopper</div>
+                <div id="reponse18_4" class="reponse reponse18 reponse_D faux">Nami</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 19 -->
+        <div class="question" id="question19">
+            <p>19. Quelle est l’île céleste visitée par les Mugiwara ?</p>
+            <div class="reponses">
+                <div id="reponse19_1" class="reponse reponse19 reponse_A vrai">Skypiea</div>
+                <div id="reponse19_2" class="reponse reponse19 reponse_B faux">Raftel</div>
+                <div id="reponse19_3" class="reponse reponse19 reponse_C faux">Whole Cake Island</div>
+                <div id="reponse19_4" class="reponse reponse19 reponse_D faux">Impel Down</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+
+        <!-- Question 20 -->
+        <div class="question" id="question20">
+            <p>20. Qui a donné son chapeau de paille à Luffy ?</p>
+            <div class="reponses">
+                <div id="reponse20_1" class="reponse reponse20 reponse_A vrai">Shanks</div>
+                <div id="reponse20_2" class="reponse reponse20 reponse_B faux">Rayleigh</div>
+                <div id="reponse20_3" class="reponse reponse20 reponse_C faux">Roger</div>
+                <div id="reponse20_4" class="reponse reponse20 reponse_D faux">Dragon</div>
+            </div>
+            <button class="valider">Valider</button>
+        </div>
+    </div>
+    <div id="felicitation">
+        <h2>Quizz terminée</h2>
+        <div id="score"></div>
+        <div id="rejouer">
+            Rejouer
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <p>© 2025 MonQuiz - Tous droits réservés</p>
+        <div class="reseaux">
+            <a href="https://github.com/ousmane-dieye" target="_blank"><i class="fa-brands fa-github"></i>
+            <a href="https://www.linkedin.com/in/ousmane-dieng-dieye-bb2352378/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>Fait par Ousmane Dieng Dieye</p>
+    </footer>
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+#titre1{
+    background-color:rgb(227, 123, 123);
+    border-style: solid;
+    padding-left: 45%;
+    color:rgb(215, 49, 49);
+    justify-content: center;
+    
+}
+body{
+    
+    background: linear-gradient(rgb(255, 6, 6), white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+#presentation{
+    background-color:rgb(223, 150, 150);
+    border-style: solid;
+    justify-content: center;
+    color:rgb(215, 49, 49);
+    justify-content: center;
+    width: 17%;
+}
+.container{
+    display: flex;
+}
+
