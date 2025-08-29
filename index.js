@@ -33,7 +33,6 @@ const questions = document.querySelectorAll(".question");
 // Je prends tous les boutons "Valider"
 const boutons = document.querySelectorAll(".valider");
 
-// Je prends le bouton "Démarrer" et la page de présentation
 const demarrerBtn = document.getElementById("demarrer");
 const presentation = document.getElementById("presentation");
 let clique = document.querySelectorAll(".clique"); 
@@ -45,13 +44,11 @@ const scoree = document.getElementById("score")
 let score = 0;
 
 console.log(felicitation);
-// Quand je clique sur "Démarrer"
 demarrerBtn.addEventListener("click", () => {
-    presentation.style.display = "none"; // cache la présentation
-    questions[0].style.display = "flex";  // affiche la première question
+    presentation.style.display = "none"; 
+    questions[0].style.display = "flex";  
 });
 
-// Pour chaque bouton "Valider"
 boutons.forEach((btn, i) => {
   btn.addEventListener("click", () => {
     clique = document.querySelectorAll(".clique"); 
@@ -62,10 +59,8 @@ boutons.forEach((btn, i) => {
       return
     }
 
-    // Cacher la question actuelle
     questions[i].style.display = "none";
 
-    // Montrer la question suivante (si elle existe)
     if (i + 1 < questions.length) {
       questions[i + 1].style.display = "flex";
     }
@@ -106,15 +101,12 @@ const rejouer = document.getElementById("rejouer");
 
 rejouer.addEventListener("click", () => {
   score = 0;
-  felicitation.style.display = "none"; // cacher la page score
+  felicitation.style.display = "none"; 
 
-  // Réinitialiser les réponses
   reponses.forEach(r => r.classList.remove("clique"));
 
-  // Cacher toutes les questions
   questions.forEach(q => q.style.display = "none");
 
-  // Montrer la première question
   questions[0].style.display = "flex";
 });
 
